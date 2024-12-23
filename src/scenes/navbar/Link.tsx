@@ -3,7 +3,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 
 type Props = {
   page: string;
-  selectedPage: SelectedPage;
+  selectedPage: SelectedPage; //SelectedPage;
   setSelectedPage: (value: SelectedPage) => void;
 };
 
