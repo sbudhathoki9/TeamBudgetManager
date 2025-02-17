@@ -4,6 +4,7 @@ export enum SelectedPage {
     Players = "players",
     Photos = "photos",
     SignIn = "sign-in",
+    SignUp = "sign-up"
 }
   
   
