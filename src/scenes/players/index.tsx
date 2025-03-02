@@ -8,7 +8,7 @@ type Props = {
 const Players = ({setSelectedPage}: Props) => {
   return (
     <section
-      id="players" className="w-full bg-primary-100 py-40" 
+      id="players" className="mx-auto min-h-full w-5/6 py-40" 
     >
     <p className="my-5">
              Nascetur aenean massa auctor tincidunt. Iaculis potenti amet

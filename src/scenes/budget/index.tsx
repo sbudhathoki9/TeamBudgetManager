@@ -3,12 +3,14 @@ import React from 'react'
 
 type Props = {
   setSelectedPage: (value: SelectedPage) => void;
+  alternateColor?: boolean;
 };
 
-const Budget = ({setSelectedPage}: Props) => {
+const Budget = ({setSelectedPage, alternateColor}: Props) => {
   return (
     <section
-      id="budget" className="mx-auto w-5/6 pt-24 pb-32"
+      id="budget" className={ `${alternateColor ? "bg-background-light" : "bg-white"} mx-auto min-h-full w-5/6 py-20`}
+      //className=" mx-auto w-5/6 pt-24 pb-32"
     >
        <p className="my-5">
                 Nascetur aenean massa auctor tincidunt. Iaculis potenti amet
